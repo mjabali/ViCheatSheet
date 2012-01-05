@@ -3,8 +3,8 @@
 
 ####Cursor movement
 
-h - move left
-j - move down
+h - move left<br>
+j - move down<br>
 k - move up
 l - move right
 w - jump by start of words (punctuation considered words)
