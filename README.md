@@ -21,55 +21,55 @@ Note: Prefix a cursor movement command with a number to repeat it. For example, 
 
 ####Insert Mode - Inserting/Appending text
 
-i - start insert mode at cursor
-I - insert at the beginning of the line
-a - append after the cursor
-A - append at the end of the line
-o - open (append) blank line below current line (no need to press return)
-O - open blank line above current line
-ea - append at end of word
-Esc - exit insert mode
+i - start insert mode at cursor<br>
+I - insert at the beginning of the line<br>
+a - append after the cursor<br>
+A - append at the end of the line<br>
+o - open (append) blank line below current line (no need to press return)<br>
+O - open blank line above current line<br>
+ea - append at end of word<br>
+Esc - exit insert mode<br>
 
-*Editing
+####Editing
 
-r - replace a single character (does not use insert mode)
-J - join line below to the current one
-cc - change (replace) an entire line
-cw - change (replace) to the end of word
-c$ - change (replace) to the end of line
-s - delete character at cursor and subsitute text
-S - delete line at cursor and substitute text (same as cc)
-xp - transpose two letters (delete and paste, technically)
-u - undo
-. - repeat last command
+r - replace a single character (does not use insert mode)<br>
+J - join line below to the current one<br>
+cc - change (replace) an entire line<br>
+cw - change (replace) to the end of word<br>
+c$ - change (replace) to the end of line<br>
+s - delete character at cursor and subsitute text<br>
+S - delete line at cursor and substitute text (same as cc)<br>
+xp - transpose two letters (delete and paste, technically)<br>
+u - undo<br>
+. - repeat last command<br>
 
-*Cut and Paste
+####Cut and Paste
 
-yy - yank (copy) a line
-2yy - yank 2 lines
-yw - yank word
-y$ - yank to end of line
-p - put (paste) the clipboard after cursor
-P - put (paste) before cursor
-dd - delete (cut) a line
-dw - delete (cut) the current word
-x - delete (cut) current character
+yy - yank (copy) a line<br>
+2yy - yank 2 lines<br>
+yw - yank word<br>
+y$ - yank to end of line<br>
+p - put (paste) the clipboard after cursor<br>
+P - put (paste) before cursor<br>
+dd - delete (cut) a line<br>
+dw - delete (cut) the current word<br>
+x - delete (cut) current character<br>
 
-*Exiting
+####Exiting
 
-:w - write (save) the file, but don't exit
-:wq - write (save) and quit
-:q - quit (fails if anything has changed)
-:q! - quit and throw away changes
+:w - write (save) the file, but don't exit<br>
+:wq - write (save) and quit<br>
+:q - quit (fails if anything has changed)<br>
+:q! - quit and throw away changes<br>
 
-*Search/Replace
+####Search/Replace
 
-/pattern - search for pattern
-?pattern - search backward for pattern
-n - repeat search in same direction
-N - repeat search in opposite direction
-:%s/old/new/g - replace all old with new throughout file
-:%s/old/new/gc - replace all old with new throughout file with confirmations
+/pattern - search for pattern<br>
+?pattern - search backward for pattern<br>
+n - repeat search in same direction<br>
+N - repeat search in opposite direction<br>
+:%s/old/new/g - replace all old with new throughout file<br>
+:%s/old/new/gc - replace all old with new throughout file with confirmations<br>
 
 *Working with multiple files
 
