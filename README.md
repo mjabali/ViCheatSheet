@@ -5,19 +5,19 @@
 
 h - move left<br>
 j - move down<br>
-k - move up
-l - move right
-w - jump by start of words (punctuation considered words)
-W - jump by words (spaces separate words)
-e - jump to end of words (punctuation considered words)
-E - jump to end of words (no punctuation)
-b - jump backward by words (punctuation considered words)
-B - jump backward by words (no punctuation)
-0 - (zero) start of line
-^ - first non-blank character of line
-$ - end of line
-G - Go To command (prefix with number - 5G goes to line 5)
-Note: Prefix a cursor movement command with a number to repeat it. For example, 4j moves down 4 lines.
+k - move up<br>
+l - move right<br>
+w - jump by start of words (punctuation considered words)<br>
+W - jump by words (spaces separate words)<br>
+e - jump to end of words (punctuation considered words)<br>
+E - jump to end of words (no punctuation)<br>
+b - jump backward by words (punctuation considered words)<br>
+B - jump backward by words (no punctuation)<br>
+0 - (zero) start of line<br>
+^ - first non-blank character of line<br>
+$ - end of line<br>
+G - Go To command (prefix with number - 5G goes to line 5)<br>
+Note: Prefix a cursor movement command with a number to repeat it. For example, 4j moves down 4 lines.<br>
 
 ####Insert Mode - Inserting/Appending text
 
