@@ -71,14 +71,14 @@ N - repeat search in opposite direction<br>
 :%s/old/new/g - replace all old with new throughout file<br>
 :%s/old/new/gc - replace all old with new throughout file with confirmations<br>
 
-*Working with multiple files
+####Working with multiple files
 
-:e filename - Edit a file in a new buffer
-:bnext (or :bn) - go to next buffer
-:bprev (of :bp) - go to previous buffer
-:bd - delete a buffer (close a file)
-:sp filename - Open a file in a new buffer and split window
-ctrl+ws - Split windows
-ctrl+ww - switch between windows
-ctrl+wq - Quit a window
-ctrl+wv - Split windows vertically
+:e filename - Edit a file in a new buffer<br>
+:bnext (or :bn) - go to next buffer<br>
+:bprev (of :bp) - go to previous buffer<br>
+:bd - delete a buffer (close a file)<br>
+:sp filename - Open a file in a new buffer and split window<br>
+ctrl+ws - Split windows<br>
+ctrl+ww - switch between windows<br>
+ctrl+wq - Quit a window<br>
+ctrl+wv - Split windows vertically<br>
